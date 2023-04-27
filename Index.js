@@ -9,7 +9,7 @@ document.querySelector('.hamburger').addEventListener("click",()=>{
         }
         else{
             document.querySelector('.ham').style.display='none';
-            setTimeout(()=>{document.querySelector('.cross').style.display='inline';},500)
+            setTimeout(()=>{document.querySelector('.cross').style.display='inline';},100)
         }
     
     
